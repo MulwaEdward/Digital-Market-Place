@@ -8,15 +8,31 @@
  
 <head>  
 <body>
-    <nav class="flex justify-between bg-gray-900 text-white p-9" text-2xl front-bold>
-        <div>Logo</div>
+
+ <!-- Navbar -->
+    <nav class="flex justify-between bg-gray-900 text-white p-4" text-2xl front-bold>
+        <div class="text-2xl font-bold">Mama Mboga</div>
 
         <div class="flex gap-4">
-            <a href="#" class="hover:text-grey-300">Home</a>
+            <a href="home" class="hover:text-grey-300">Home</a>
             <a href="#" class="hover:text-grey-300">About Us</a>
             <a href="#" class="hover:text-grey-300">Contact</a>
         </div>
         <button class="bg-blue-900 px-4 py-2 rounded">sign in</button>
     </nav>
+
+    <!-- Hero Section -->
+     <section id="home"class="flex items-center justify-center bg-cover bg-center relative h-screen" style="background-image: url('image.png');">         
+        
+        <div class="absolute inset-0 bg-black/50"></div>
+
+        <div class="relative z-10 text-white p-5">
+            <h1 class="text-5xl md:text-6xl font-bold mb-7"> Mama Mboga Mtaani Popote</h1>
+            <p class="text-lg md:text-xl mx-w-2xl mx-auto mb-7">Discover, buy, and sell farm produce with ease.</p>
+        
+        <button class="bg-blue-900 px-6 py-3 rounded-md hover:bg-blue-900 ml-100">Get Started</button>
+        </div>
+
+    </section>
 
 </html>
